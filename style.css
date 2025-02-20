@@ -1,0 +1,88 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #7759a7;
+  height: 9vh;
+  width: 100vw;
+  text-align: center;
+}
+
+h1 {
+  padding: 1rem;
+}
+
+.options-container {
+  height: 52vh;
+  background-color: #008e9b;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 5vmin;
+}
+
+.option {
+  border: 2px solid black;
+  border-radius: 50%;
+  font-size: 12vmin;
+  color: #ff9671;
+  padding: 2vmin;
+  background-color: #fff;
+}
+
+.option:hover{
+  cursor: pointer;
+  transform: scale(1.1);
+  background-color: #ffcccb;
+  transition: transform 0.2s, background-color 0.2s;
+}
+
+.score-container {
+  height: 36vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #008f7a;
+  font-size: 1.5rem;
+  padding: 1rem;
+  gap: 2rem;
+}
+
+.scores {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 8vmin;
+  margin-bottom: 6vmin;
+}
+
+.score {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.message {
+  border: 1px solid black;
+  border-radius: 0.5rem;
+  padding: 0.5rem;
+  background-color: #7759a7;
+  font-weight: bold;
+  text-align: center;
+  color: #000000;
+}
+
+.resetBtn{
+  border: none;
+  border: 1px solid black;
+  border-radius: 0.5rem;
+  padding: 0.5rem;
+  background-color: #7759a7;
+  font-size: 1rem;
+}
